@@ -5,7 +5,7 @@
 wordpress_sites:
   klarkdeblyn.me:
     site_hosts:
-      - 104.131.117.88
+      - 104.131.170.52
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:alexn16/sage-kkdblyn.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
