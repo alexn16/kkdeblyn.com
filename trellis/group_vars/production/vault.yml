@@ -10,7 +10,7 @@ vault_sudoer_passwords:
 vault_wordpress_sites:
   klarkdelyn.me:
     env:
-      db_password: 021030Alex
+      db_password:
       # Generate your keys here: https://roots.io/salts.html
       auth_key: "#|TN<:|[ftwVm9ps-*]sblHuom1j.W=$)sJ0E9,[/Xz8Mak]&]bW8:u7L0cVM^*-"
       secure_auth_key: "aeMX+3!uE29NC@7[T3KjB6BG[SM>Vdr_}$z6.k;8&2XBs[,Lb#rjyO<kKHW<_vde"
