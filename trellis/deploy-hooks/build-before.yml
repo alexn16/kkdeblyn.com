@@ -22,8 +22,8 @@
    args:
      chdir: "{{ project.local_path }}/web/app/themes/sage"
 
-    - name: Copy project local files
-   synchronize:
+- name: Copy project local files
+    synchronize:
      src: "{{ project.local_path }}/web/app/themes/sage/dist"
      dest: "{{ deploy_helper.new_release_path }}/web/app/themes/sage"
      group: no
