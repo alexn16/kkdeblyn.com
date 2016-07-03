@@ -1,9 +1,9 @@
 {
-  "name": "roots/sage",
-  "type": "wordpress-theme",
+  "name": "roots/soil",
+  "type": "wordpress-plugin",
   "license": "MIT",
-  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
-  "homepage": "https://roots.io/sage/",
+  "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+  "homepage": "https://roots.io/plugins/soil/",
   "authors": [
     {
       "name": "Ben Word",
@@ -20,12 +20,11 @@
     "wordpress"
   ],
   "support": {
-    "issues": "https://github.com/roots/sage/issues",
+    "issues": "https://github.com/roots/soil/issues",
     "forum": "https://discourse.roots.io/"
   },
   "require": {
     "php": ">=5.4.0",
-    "composer/installers": "~1.0",
-    "roots/soil": "3.5.0"
+    "composer/installers": "~1.0"
   }
 }
